@@ -1,0 +1,26 @@
+.btn {
+    display: inline-block;
+    width: 170px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    margin: 25px 0;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.btn_wh {
+    background-color: var(--white);
+    color: var(--black);    
+}
+.btn_bl {
+    background-color: var(--black);
+    color: var(--white);    
+}
+
+.btn_wh:hover, 
+.btn_bl:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}

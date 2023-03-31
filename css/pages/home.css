@@ -1,0 +1,32 @@
+@import '../base/base.css';
+@import '../base/layout.css';
+@import '../components/header.css';
+@import '../components/button.css';
+@import '../components/partners.css';
+
+.hero{
+    display: flex;
+    min-height: 470px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    color: var(--white);
+}
+
+.hero_text {
+    padding-top: 42px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    max-width: 415px;
+    flex-shrink: 1;
+}
+
+.hero_img {
+    flex-grow: 1;
+    flex-basis: 410px;
+    flex-shrink: 1;
+}
+
+.hero_img img {
+    width: 100%;
+}

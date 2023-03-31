@@ -1,0 +1,18 @@
+:root {
+    --green: #74C69D;
+    --white: #fff;
+    --black: #000;
+    --orange: #FAAD3A;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Work Sans', sans-serif;
+}
+
